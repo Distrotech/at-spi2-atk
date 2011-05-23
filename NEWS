@@ -1,3 +1,15 @@
+What's new in at-spi2-atk 2.0.2:
+
+* Fix matching on attributes for collection methods
+
+* Fix for BGO#650286: Ensure valid UTF-8 from ATK
+
+* Always emit children-changed, property-change, and state-changed events, in
+  order to keep caches synchronized.
+
+* Add GetAtspiVersion to fetch the version of the AT-SPI specification provided
+  by an application.
+
 What's new in at-spi2-atk 2.0.1:
 
 * Fix a memory leak in impl_GetText
