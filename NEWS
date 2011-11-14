@@ -1,3 +1,12 @@
+What's new in at-spi2-atk 2.2.2:
+
+* Don't leave va_args dangling
+
+* Have Socket's implementation of ref_state_set to return empty sets instead of
+  NULL
+
+* Make sure the a11y hierarchy under an AtkPlug is generated when embedding.
+
 What's new in at-spi2-atk 2.2.1:
 
 * Updated Finnish translation.
