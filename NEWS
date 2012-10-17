@@ -1,3 +1,8 @@
+What's new in at-spi2-atk 2.6.1:
+
+* Make atk-bridge location empty in the schema, to fix problems with multilib
+  builds. (The key should no longer be needed and will be removed for 2.8.)
+
 What's new in at-spi2-atk 2.6.0:
 
 * Fix some crashes in atk_bridge_adaptor_cleanup (BGO#684434).
