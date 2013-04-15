@@ -1,3 +1,9 @@
+What's new in at-spi2-atk 2.8.1:
+
+* Fix memory leak in socketadaptor.c (BGO#696733)
+
+* Fix a crash when handling a D-Bus method reply after deinitialization.
+
 What's new in at-spi2-atk 2.7.91:
 
 * Add Locale property (BGO#694368).
