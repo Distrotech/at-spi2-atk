@@ -1,3 +1,7 @@
+What's new in at-spi2-atk 2.10.2:
+
+* Fix atk_component_contains wrapper (BGO#710730).
+
 What's new in at-spi2-atk 2.9.92:
 
 * Properly clean up when timing out when motifying keystroke listeners
