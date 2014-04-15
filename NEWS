@@ -1,3 +1,7 @@
+What's new in at-spi2-atk 2.12.1:
+
+* Clean up socket files and directories on exit (BGO#684076).
+ 
 What's new in at-spi2-atk 2.11.92:
 
 * Bump minimum libdbus version needed, since we use a function
